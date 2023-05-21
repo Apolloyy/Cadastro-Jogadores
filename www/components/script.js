@@ -11,7 +11,6 @@ function cadastrar(){
     time = document.getElementById('time').value;
 
     array_jogtime[0] = jogador + ' - ' + time;
-    //array_jogtime.unshift(jogador + " - " + time);
 
     localStorage.setItem(jogador, time);
 
@@ -35,11 +34,7 @@ function Listar(){
     else {
         alert("Já dentro da lista. Cadastre outro jogador!")
     }
-    
 
-
-    // listar = document.getElementById('btnListar').value;
-    // alert("A chave é: " + pesquisa + " e o valor é " + localStorage.getItem(pesquisa));
 }
 
 function Limpar() {
@@ -59,7 +54,6 @@ function cadastrar(){
     time = document.getElementById('time').value;
 
     array_jogtime[0] = jogador + ' - ' + time;
-    //array_jogtime.unshift(jogador + " - " + time);
 
     localStorage.setItem(jogador, time);
 
@@ -83,11 +77,7 @@ function Listar(){
     else {
         alert("Já dentro da lista. Cadastre outro jogador!")
     }
-    
 
-
-    // listar = document.getElementById('btnListar').value;
-    // alert("A chave é: " + pesquisa + " e o valor é " + localStorage.getItem(pesquisa));
 }
 
 function Limpar() {
